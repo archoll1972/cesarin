@@ -1,11 +1,18 @@
+html {
+    font-size: 24px;
+}
+
+
 #t100 {
     color: aqua; font-size: 80px;
 }
 #t80 {
-    color: red; font-size: 40px;
+    color: red; font-size: 50%; 
+/*percentage of the master font*/
 }
 #t50 {
-    color: gold; font-size: 30px;
+    color: gold; font-size: 1rem;
+/*    taking the root font size and make the change to this text according to whatever I want. Default is 16 pixels. these are relative to the html root. We have pc, px, em, cms. in, mm, %. EMs look at their parents between themselves, not the root and won't care about the html root*/
 }
 
 #t10 {
