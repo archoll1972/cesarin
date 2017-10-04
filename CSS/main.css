@@ -12,7 +12,7 @@ html {
 }
 #t50 {
     color: gold; font-size: 1rem;
-/*    taking the root font size and make the change to this text according to whatever I want. Default is 16 pixels. these are relative to the html root. We have pc, px, em, cms. in, mm, %. EMs look at their parents between themselves, not the root and won't care about the html root*/
+/*    taking the root font size and make the change to this text according to whatever I want. Default is 16 pixels. these are relative to the html root. We have pc, px, em, cms. in, mm, %. EMs look at their parents between themselves, not the root and won't care about the html root. REM reference to the html root. EMS don't, they will obey their own group of fonts*/ 
 }
 
 #t10 {
